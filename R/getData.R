@@ -8,7 +8,7 @@ hash_student <- new.env(hash = TRUE, parent = emptyenv(), size = 10000)
 #assignment <- "CS555-Assignment-1"
 #task <- "task1" or "task2"
 
-f <- system.file("extdata", "Assignment1.json", package = "starter")
+f <- system.file("extdata", "Assignment1.json", package="starter")
 json <- tryCatch(fromJSON(f),
                   error = function(e){
                     print("Incorrect JSON file. This file does not exist.")
