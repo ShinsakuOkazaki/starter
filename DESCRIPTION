@@ -1,0 +1,19 @@
+Package: starter
+Type: Package
+Title: A practice for how to make package 
+Version: 0.1.0
+Authors@R: person("Shinsaku", "Okazaki", email = "golisaku4639@gmail.com", role = c("aut", "cre"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: A practice that I can learn how to make R package.
+    This has a simple function that returns result for us.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+Imports: 
+    RJSONIO
